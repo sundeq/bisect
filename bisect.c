@@ -37,7 +37,6 @@ double bisect(double foo(double x), double a, double b, double tol) {
         }
         if (sign(f_mid) * sign(f_a) < 0) {
             b = ab_mid;
-            f_b = f_mid;
         } else {
             a = ab_mid;
             f_a = f_mid;
